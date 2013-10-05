@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Tue Sep 24 19:58:09 CST 2013
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=SGIPSend_fat130924.jar
+manifest.mergeall=true
+manifest.mainclass=com.main.mainSend
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
