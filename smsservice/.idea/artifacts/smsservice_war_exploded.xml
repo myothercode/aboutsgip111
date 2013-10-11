@@ -24,6 +24,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.2" />
           <element id="library" level="project" name="Maven: com.microsoft.sqlserver:sqljdbc4:4.0" />
