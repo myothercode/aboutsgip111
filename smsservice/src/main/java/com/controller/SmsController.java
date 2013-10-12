@@ -35,7 +35,7 @@ public class SmsController{
         /*smsBody.setMsg("".equals(smsBody.getMsg())?null:smsBody.getMsg());
         smsBody.setPhoneNo("".equals(smsBody.getPhoneNo())?null:smsBody.getPhoneNo());
         smsBody.setServiceId("".equals(smsBody.getServiceId())?null:smsBody.getServiceId());*/
-        Assert.notNull(smsBody.getServiceId()!=null&&!"".equals(smsBody.getServiceId()),"服务号为空!!");
+        Assert.notNull(smsBody.getServiceId()!=null&&!"".equals(smsBody.getServiceId()),"服务号为空！!!");
         Assert.notNull(smsBody.getPhoneNo()!=null&&!"".equals(smsBody.getPhoneNo()),"号码为空!");
         Assert.notNull(smsBody.getMsg()!=null&&!"".equals(smsBody.getMsg()),"内容为空!");
         dataAccessService.insertSend(smsBody);
